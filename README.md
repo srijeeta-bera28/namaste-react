@@ -16,7 +16,9 @@ If you are developing a production application, we recommend using TypeScript wi
 - Configure Tailwind CSS
 
 # Features:
-- Login
+- Login / Sign up Form
+    - Sign In / Sign up Form
+    - redirect to Browser page
 - Browse(after authentication)
     - Header 
     - Main Movie
@@ -24,3 +26,6 @@ If you are developing a production application, we recommend using TypeScript wi
         - Title & Description
         - Movie Suggestions
             - Movie Lists * N
+- Netflic GPT 
+    - Search Bar
+    - Movie Suggestions
