@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+.logo{
+    width: 150px;
+    height: auto;
+    /* position: absolute; */
+    left: 40px;
+    top: 40px;
+    z-index: 1;
+}
+
+.logo img{
+    filter: sepia(0.35);
+}

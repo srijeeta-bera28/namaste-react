@@ -14,6 +14,35 @@ If you are developing a production application, we recommend using TypeScript wi
 # Netflix GPT
 - Crete Netflix GPT App using Vite
 - Configure Tailwind CSS
+- Header
+- Routing of App
+- Login form
+- Sign up form
+- Form validation
+- useRef Hook
+- Firebase Setup
+- Deploying our app to production
+- Create Sign up user account in Firebase
+- Implement Sign In user Api
+- Created Redux store with userSlice
+- Implemented Sign out
+- Update Profile [auth.currentUser]
+- BugFix: Sign up user displayName and profile picture update
+- BugFix: If the user is not logged in Redirect to /browse to Login Page and vice-versa 
+- Unsunscribe to inAuthStateChange callback
+- Add harcoded values to a contant.js fille
+- Add hardcoded values to the constant file
+- Create an TMDP API & create an app and get access tokrn
+- Get data from TMDB nowplaying movieslist API
+- Custom hook for Now Playing Movies
+- Create movieSlice
+- Update store with movies Data
+- Planning for MainContainer and SecondaryContainer 
+- Fetch data for Trailer Video
+- Update Store with Trailer Video data
+- Embedded the Youtube video and make it autoplay and mute.
+- Tailwind classes to make MainContainer look awesome
+
 
 # Features:
 - Login / Sign up Form
