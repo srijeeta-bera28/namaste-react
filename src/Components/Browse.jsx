@@ -4,9 +4,14 @@ import { API_OPTIONS, MOVIE_URL } from '../utils/movieAPI'
 
 import useNowPlayingMovies from '../hooks/useNowPlayingMovies'
 import MainContainer from './MainContainer';
+import SecondaryContainer from './SecondaryContainer';
+import usePopularMovies from '../hooks/usePopularMovies';
+import useTopratedMovies from '../hooks/useTopratedMovies';
 
 const Browse = () => {
   useNowPlayingMovies();
+  usePopularMovies();
+  useTopratedMovies();
   return (
     <div>
       <Header />
@@ -19,6 +24,7 @@ const Browse = () => {
               - Movie List * n
               - cards * n
             */}
+            <SecondaryContainer />
     </div>
   )
 }
