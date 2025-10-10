@@ -48,6 +48,11 @@ If you are developing a production application, we recommend using TypeScript wi
 - TMDB Image CDN URL
 - Made the Browse page amazing Tailwind
 - usepopularMovies, useTopratedMovies custom hooks
+- GPT integration
+- GPT Search Page
+- GPT Search Bar
+- Multi-language Feature in our App
+- GPT APIs(get opn ai key)
 
 # Features:
 - Login / Sign up Form

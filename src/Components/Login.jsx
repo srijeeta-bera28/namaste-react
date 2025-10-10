@@ -8,7 +8,7 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfi
 import { auth } from '../utils/firebase';
 import { addUser } from '../utils/userSlice';
 import { useDispatch } from 'react-redux';
-import { USER_AVATAR } from '../utils/constants';
+import { BG_URL, USER_AVATAR } from '../utils/constants';
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -86,7 +86,7 @@ const Login = () => {
     <div>
       <Header />
       <div className='bg-gradient-to-b from-black relative'>
-         <img className='relative' src='https://assets.nflxext.com/ffe/siteui/vlv3/bebd95d0-65f9-41a9-9d12-4794db63653e/web/IN-en-20250922-TRIFECTA-perspective_5e75cfb4-3797-4f17-866b-181ff91a51dd_large.jpg' />
+         <img className='relative' src={BG_URL} />
       </div>
       <form onSubmit={(e) => e.preventDefault()} className='w-3/12 absolute p-12 rounded rounded-lg bg-black/70 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto'>
         <h1 className='text-white pb-4 text-xl'>{isSignInForm? "Sign In" : "Sign Up"}</h1>
