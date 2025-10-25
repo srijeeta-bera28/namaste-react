@@ -3,3 +3,8 @@ export const USER_AVATAR = "https://cyber.comolho.com/static/img/avatar.png"
 
 export const BG_URL = "https://assets.nflxext.com/ffe/siteui/vlv3/bebd95d0-65f9-41a9-9d12-4794db63653e/web/IN-en-20250922-TRIFECTA-perspective_5e75cfb4-3797-4f17-866b-181ff91a51dd_large.jpg";
 
+export const OPENAI_KEY = "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"
+
+
+
+

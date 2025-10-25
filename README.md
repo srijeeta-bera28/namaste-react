@@ -52,7 +52,8 @@ If you are developing a production application, we recommend using TypeScript wi
 - GPT Search Page
 - GPT Search Bar
 - Multi-language Feature in our App
-- GPT APIs(get opn ai key)
+//- GPT APIs(get opn ai key)
+- TMDB search result
 
 # Features:
 - Login / Sign up Form
